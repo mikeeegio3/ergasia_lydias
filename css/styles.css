@@ -1,0 +1,35 @@
+.btn4{
+  background: transparent;
+  outline: none;
+  color: red;
+}
+
+.post-ratings-container {
+  display: flex;
+  justify-content: end;
+  padding: 12px 0;
+}
+
+.post-rating {
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+.post-rating:not(:last-child) {
+  margin-right: 12px;
+}
+
+.post-rating-button {
+  margin-right: 6px;
+  cursor: pointer;
+  color: #51585e;
+}
+
+.heart-empty{
+  color: black;
+}
+
+.heart-full{
+  color: red;
+}
